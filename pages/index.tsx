@@ -26,7 +26,7 @@ export default function Home({ exploreData, cardsData }: MyDataType) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <Header placeholder="Search..." />
       <Banner />
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
